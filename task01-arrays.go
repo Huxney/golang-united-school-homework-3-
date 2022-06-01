@@ -1,6 +1,13 @@
 package homework
 
+import "fmt"
+
 func average(input [15]float32) (result float32) {
-	//Place your code here
-	return
+	var total float32 = 0
+	for _, value := range input {
+		total += value
+	}
+	fmt.Println(total / float32(len(input)))
+
+	return result
 }
