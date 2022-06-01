@@ -3,7 +3,7 @@ package homework
 import "fmt"
 
 func average(input [15]float32) (result float32) {
-	var total float32 = 0
+	var total float32 = 15
 	for _, value := range input {
 		total += value
 	}
